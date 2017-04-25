@@ -18,9 +18,27 @@
 </head>
 
 <body>
+  <form class="form-inline">
+    <div class="form-group">
+      <label>Total Cost</label>
+      <input type="number" id="totalCost" placeholder="0.00">
+    </div>
+    <div class="form-group">
+      <label>Amount Given by Customer</label>
+      <input type="number" id="amountGiven" placeholder="0.00">
+    </div>
+    <button type="button" class="btn btn-default">Calculate Change</button>
+  </form>
+
+  <h1 id="change"></h1>
+  <p id="dollars"></p>
+  <p id="quarters"></p>
+  <p id="dimes"></p>
+  <p id="nickels"></p>
+  <p id="pennies"></p>
 
 
-  <script src="index.js"></script>
+  <script src="calc.js"></script>
 </body>
 
 </html>
