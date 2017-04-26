@@ -13,22 +13,22 @@ $(document).ready(function() {
     var nickels = Math.floor(remainder / 5).toFixed(0);
     remainder %= 5;
     var pennies = remainder;
-    /*
-        $("p #change").html("Customer's Change is " + change);
-        $("p #dollars").html("Dollars = "+ dollars);
-        $("p #quarters").html("Quarters = "+ quarters);
-        $("p #dimes").html("Dimes = "+ dimes);
-        $("p #nickels").html("Nickels = "+ nickels);
-        $("p #pennies").html("Pennies = "+ pennies);
-    */
 
+        $("p" "#change").html("Customer's Change is " + change);
+        $("p" "#dollars").html("Dollars = "+ dollars);
+        $("p" "#quarters").html("Quarters = "+ quarters);
+        $("p" "#dimes").html("Dimes = "+ dimes);
+        $("p" "#nickels").html("Nickels = "+ nickels);
+        $("p" "#pennies").html("Pennies = "+ pennies);
+
+/*
     document.getElementById('change').innerHTML = "Customer's Change is " + change;
     document.getElementById('dollars').innerHTML = "Dollars = " + dollars;
     document.getElementById('quarters').innerHTML = "Quarters = " + quarters;
     document.getElementById('dimes').innerHTML = "Dimes = " + dimes;
     document.getElementById('nickels').innerHTML = "Nickels = " + nickels;
     document.getElementById('pennies').innerHTML = "Pennies = " + pennies;
-
+*/
   })
 });
 
