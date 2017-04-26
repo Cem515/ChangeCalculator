@@ -39,3 +39,19 @@ input {
   position: absolute;
   z-index: -1;
 }
+
+#quarters{
+  background: url("quarters.jpg");
+}
+
+#dimes{
+  background: url("dime.jpg");
+}
+
+#nickels{
+  background: url("nickel.jpg");
+}
+
+#pennies{
+  background: url("pennies.jpg");
+}
