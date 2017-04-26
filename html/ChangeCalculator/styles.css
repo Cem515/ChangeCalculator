@@ -12,6 +12,10 @@ p.Hover {
   border: 4px groove darkgreen;
  }
 
+p{
+height: 50px;
+
+}
 h1 {
   color: #000
   font-family: 'Vollkorn', serif;
@@ -39,19 +43,33 @@ input {
   position: absolute;
   z-index: -1;
 }
+#dollars{
+background: url("img/dollar.jpg")
+ background-size: contain;
+background-repeat: no-repeat;
+}
 
 #quarters{
-  background: url("quarters.jpg");
+  background: url("img/quarters.jpg");
+    background-size: contain;
+  background-repeat: no-repeat;
+
 }
 
 #dimes{
-  background: url("dime.jpg");
+  background: url("img/dime.jpg");
+    background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #nickels{
-  background: url("nickel.jpg");
+  background: url("img/nickel.jpg");
+    background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #pennies{
-  background: url("pennies.jpg");
+  background: url("img/pennnies.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
