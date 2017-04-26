@@ -18,6 +18,15 @@ h1 {
   text-align: center;
 }
 
+input {
+  background-color: #D3D3D3;
+
+}
+
+#calculator {
+  background-color: #EEE8AA;
+  border: 2px inset #000;
+}
 
 #cal::after {
   content: "";
