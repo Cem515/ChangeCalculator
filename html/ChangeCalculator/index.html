@@ -4,11 +4,10 @@
 
 <head>
   <meta charset="utf-8">
-
+<!--Add Styling BootStrap -->
   <title>Change Calculator</title>
   <div id= "cal">
   <h1>Change Calculator</h1>
-</div>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -25,15 +24,21 @@
 <body>
   <form class="form-inline">
     <div class="form-group">
+      <!--Total Cost Input -->
       <label>Total Cost</label>
       <input type="number" id="totalCost" placeholder="0.00">
     </div>
     <div class="form-group">
+      <!--Customer Money -->
       <label>Amount Given by Customer</label>
       <input type="number" id="amountGiven" placeholder="0.00">
     </div>
+  </div>
+  <!--Activation Button -->
     <button type="button" class="btn btn-default" id="calculator">Calculate Change</button>
   </form>
+
+  <!--Form Outputs -->
   <div id="outputs">
     <p id="change"></p>
     <p id="dollars"></p>
