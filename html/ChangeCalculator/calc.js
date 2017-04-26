@@ -14,12 +14,12 @@ $(document).ready(function() {
     remainder %= 5;
     var pennies = remainder;
 
-        $("p" "#change").html("Customer's Change is " + change);
-        $("p" "#dollars").html("Dollars = "+ dollars);
-        $("p" "#quarters").html("Quarters = "+ quarters);
-        $("p" "#dimes").html("Dimes = "+ dimes);
-        $("p" "#nickels").html("Nickels = "+ nickels);
-        $("p" "#pennies").html("Pennies = "+ pennies);
+        $("#change").html("Customer's Change is " + change);
+        $("#dollars").html("Dollars = "+ dollars);
+        $("#quarters").html("Quarters = "+ quarters);
+        $("#dimes").html("Dimes = "+ dimes);
+        $("#nickels").html("Nickels = "+ nickels);
+        $("#pennies").html("Pennies = "+ pennies);
 
 /*
     document.getElementById('change').innerHTML = "Customer's Change is " + change;
